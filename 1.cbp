@@ -13,11 +13,16 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="imgui" />
+					<Add directory="imgui-sfml" />
+					<Add directory="/home/vengie/Documents/programming/1/" />
 				</Compiler>
 				<Linker>
-					<Add library="sfml-graphics" />
-					<Add library="sfml-window" />
-					<Add library="sfml-system" />
+					<Add library="X11" />
+					<Add library="Xrandr" />
+					<Add directory="imgui" />
+					<Add directory="imgui-sfml" />
+					<Add directory="../1" />
 				</Linker>
 			</Target>
 			<Target title="Release">
@@ -30,16 +35,86 @@
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
-					<Add library="sfml-graphics" />
-					<Add library="sfml-window" />
-					<Add library="sfml-system" />
 				</Linker>
 			</Target>
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add option="-std=c++17" />
+			<Add directory="/home/vengie/Downloads/SFML-3.0.0/include" />
 		</Compiler>
+		<Linker>
+			<Add library="X11" />
+			<Add library="Xrandr" />
+			<Add library="xcb" />
+			<Add library="X11-xcb" />
+			<Add library="/home/vengie/Downloads/SFML-3.0.0/lib/libsfml-audio.so" />
+			<Add library="/home/vengie/Downloads/SFML-3.0.0/lib/libsfml-audio-d.so" />
+			<Add library="/home/vengie/Downloads/SFML-3.0.0/lib/libsfml-audio-s.a" />
+			<Add library="/home/vengie/Downloads/SFML-3.0.0/lib/libsfml-audio-s-d.a" />
+			<Add library="/home/vengie/Downloads/SFML-3.0.0/lib/libsfml-graphics.so" />
+			<Add library="/home/vengie/Downloads/SFML-3.0.0/lib/libsfml-graphics-d.so" />
+			<Add library="/home/vengie/Downloads/SFML-3.0.0/lib/libsfml-graphics-s.a" />
+			<Add library="/home/vengie/Downloads/SFML-3.0.0/lib/libsfml-graphics-s-d.a" />
+			<Add library="/home/vengie/Downloads/SFML-3.0.0/lib/libsfml-network.so" />
+			<Add library="/home/vengie/Downloads/SFML-3.0.0/lib/libsfml-network-d.so" />
+			<Add library="/home/vengie/Downloads/SFML-3.0.0/lib/libsfml-network-s.a" />
+			<Add library="/home/vengie/Downloads/SFML-3.0.0/lib/libsfml-network-s-d.a" />
+			<Add library="/home/vengie/Downloads/SFML-3.0.0/lib/libsfml-system.so" />
+			<Add library="/home/vengie/Downloads/SFML-3.0.0/lib/libsfml-system-d.so" />
+			<Add library="/home/vengie/Downloads/SFML-3.0.0/lib/libsfml-system-s.a" />
+			<Add library="/home/vengie/Downloads/SFML-3.0.0/lib/libsfml-system-s-d.a" />
+			<Add library="/home/vengie/Downloads/SFML-3.0.0/lib/libsfml-window.so" />
+			<Add library="/home/vengie/Downloads/SFML-3.0.0/lib/libsfml-window-d.so" />
+			<Add library="/home/vengie/Downloads/SFML-3.0.0/lib/libsfml-window-s.a" />
+			<Add library="/home/vengie/Downloads/SFML-3.0.0/lib/libsfml-window-s-d.a" />
+			<Add library="xcb-randr" />
+			<Add library="/lib/x86_64-linux-gnu/libX11.a" />
+			<Add library="/lib/x86_64-linux-gnu/libX11.so" />
+			<Add library="/lib/x86_64-linux-gnu/libX11-xcb.a" />
+			<Add library="/lib/x86_64-linux-gnu/libX11-xcb.so" />
+			<Add library="/lib/x86_64-linux-gnu/libXau.a" />
+			<Add library="/lib/x86_64-linux-gnu/libXau.so" />
+			<Add library="/lib/x86_64-linux-gnu/libXdmcp.a" />
+			<Add library="/lib/x86_64-linux-gnu/libXdmcp.so" />
+			<Add library="/lib/x86_64-linux-gnu/libXext.a" />
+			<Add library="/lib/x86_64-linux-gnu/libXext.so" />
+			<Add library="/lib/x86_64-linux-gnu/libXrandr.a" />
+			<Add library="/lib/x86_64-linux-gnu/libXrandr.so" />
+			<Add library="/lib/x86_64-linux-gnu/libXrender.a" />
+			<Add library="/lib/x86_64-linux-gnu/libXrender.so" />
+			<Add library="/lib/x86_64-linux-gnu/libxcb.a" />
+			<Add library="/lib/x86_64-linux-gnu/libxcb.so" />
+			<Add library="/lib/x86_64-linux-gnu/libxcb-randr.a" />
+			<Add library="/lib/x86_64-linux-gnu/libxcb-randr.so" />
+			<Add library="/lib/x86_64-linux-gnu/libxcb-render.a" />
+			<Add library="/lib/x86_64-linux-gnu/libxcb-render.so" />
+			<Add library="/lib/x86_64-linux-gnu/libxcb-shape.a" />
+			<Add library="/lib/x86_64-linux-gnu/libxcb-shape.so" />
+			<Add library="/lib/x86_64-linux-gnu/libxcb-xfixes.a" />
+			<Add library="/lib/x86_64-linux-gnu/libxcb-xfixes.so" />
+			<Add library="/lib/x86_64-linux-gnu/libXinerama.so.1.0.0" />
+			<Add library="/lib/x86_64-linux-gnu/libXinerama.so.1" />
+			<Add library="Xau" />
+			<Add library="Xdmcp" />
+			<Add library="GL" />
+			<Add library="Xext" />
+		</Linker>
 		<Unit filename="cb.bmp" />
+		<Unit filename="imconfig-SFML.h" />
+		<Unit filename="imconfig.h" />
+		<Unit filename="imgui-SFML.cpp" />
+		<Unit filename="imgui-SFML.h" />
+		<Unit filename="imgui-SFML_export.h" />
+		<Unit filename="imgui.cpp" />
+		<Unit filename="imgui.h" />
+		<Unit filename="imgui_draw.cpp" />
+		<Unit filename="imgui_internal.h" />
+		<Unit filename="imgui_tables.cpp" />
+		<Unit filename="imgui_widgets.cpp" />
+		<Unit filename="imstb_rectpack.h" />
+		<Unit filename="imstb_textedit.h" />
+		<Unit filename="imstb_truetype.h" />
 		<Unit filename="main.cpp" />
 		<Extensions />
 	</Project>

@@ -3,12 +3,15 @@
 #include <iostream>
 #include <array>
 #include <cmath>
-float mass =  100;
+#include "imgui.h"
+#include "imgui-SFML.h"
+static_assert(SFML_VERSION_MAJOR == 3, "Requires SFML 3.0");
+float mass =  1;
 float gravity = -9.81;
 float airDensity = 1.293;
 float dragCoeff = 0.47;
-float radius = 100;
-
+float radius = 25.f;
+static bool showDemoWindow = true;
 float terminalV()
 {
     float crossSection = M_PI * pow(radius, 2);
@@ -23,12 +26,13 @@ float yPosDrag(float startPos, float time)
 }
 
 int main() {
-    sf::RenderWindow window(sf::VideoMode(800, 600), "Falling Ball");
+
+    sf::RenderWindow window(sf::VideoMode({800, 600}), "Window Title");
     sf::Clock clock;
-    sf::CircleShape ball(25.f);
+    sf::CircleShape ball(radius);
+    ImGui::SFML::Init(window);
     float y = 0.f;
     float floor = 550.f;
-    bool onGround = false;
     float time;
 
     std::array line =
@@ -40,24 +44,38 @@ int main() {
 
 
     while (window.isOpen()) {
-        sf::Event event;
-        while (window.pollEvent(event)) {
-            if (event.type == sf::Event::Closed)
+        //sf::Event event{};
+        sf::Clock delta;
+        while (const std::optional event = window.pollEvent())
+        {
+            ImGui::SFML::ProcessEvent(window, *event);
+            // Close window: exit
+            if (event->is<sf::Event::Closed>())
                 window.close();
         }
+
+        ImGui::SFML::Update(window, delta.restart());
+
+        ImGui::ShowDemoWindow(&showDemoWindow);
+
+        ImGui::Begin("Hello, world!");
+        ImGui::Button("I'm a button...");
+        ImGui::End();
+
         time = clock.getElapsedTime().asSeconds();
 
         //y += 0*clock.getElapsedTime().asSeconds() + (0.5f*gravity*pow(clock.getElapsedTime().asSeconds(),2));
 
         y -= yPosDrag(0, time);
 
-        if(y+50.f >= floor){
-            ball.setPosition(400.f-25.f,floor-50.f);
+        if(y+2*radius >= floor){
+
+            ball.setPosition(sf::Vector2f(400.f-radius, floor-2*radius));
             //break;
         }
         else
         {
-            ball.setPosition(400.f-25.f,0.f+y);
+            ball.setPosition(sf::Vector2f(400.f-radius,0.f+y));
         }
         std::cout << y<< std::endl;
         window.clear();
@@ -65,8 +83,10 @@ int main() {
 
         window.draw(line.data(), line.size(), sf::PrimitiveType::Lines);
         window.draw(ball);
+        ImGui::SFML::Render(window);
         window.display();
 
     }
+    ImGui::SFML::Shutdown();
     return 0;
 }

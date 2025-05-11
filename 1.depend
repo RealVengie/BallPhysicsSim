@@ -1,8 +1,680 @@
 # depslib dependency file v1.0
-1746958264 source:/home/vengie/Documents/programming/1/main.cpp
+1746978835 source:/home/vengie/Documents/programming/1/main.cpp
 	<SFML/Graphics.hpp>
 	<cmath>
 	<iostream>
 	<array>
 	<cmath>
+	"imgui.h"
+	"imgui-SFML.h"
+
+1746964811 /home/vengie/Documents/programming/1/imgui.h
+	"imconfig.h"
+	<float.h>
+	<stdarg.h>
+	<stddef.h>
+	<string.h>
+	<assert.h>
+	"imgui_user.h"
+
+1746966907 /home/vengie/Documents/programming/1/imconfig.h
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+	<cstdint>
+	"imgui-SFML_export.h"
+
+1746966423 /home/vengie/Documents/programming/1/imgui-SFML.h
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/Window/Joystick.hpp>
+	<optional>
+	"imgui-SFML_export.h"
+
+1746966423 /home/vengie/Documents/programming/1/imgui-SFML_export.h
+
+1746964811 source:/home/vengie/Documents/programming/1/imgui.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<stdio.h>
+	<stdint.h>
+	<Windows.h>
+	<windows.h>
+	<TargetConditionals.h>
+	"stb_sprintf.h"
+	<Carbon/Carbon.h>
+	<shellapi.h>
+	<sys/wait.h>
+	<unistd.h>
+	<imm.h>
+	"imgui_user.inl"
+
+1746964811 /home/vengie/Documents/programming/1/imgui_internal.h
+	"imgui.h"
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<limits.h>
+	<immintrin.h>
+	<nmmintrin.h>
+
+1746964811 source:/home/vengie/Documents/programming/1/imgui_draw.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	"misc/freetype/imgui_freetype.h"
+	<stdio.h>
+	"imstb_rectpack.h"
+	"imstb_truetype.h"
+
+1746964811 /home/vengie/Documents/programming/1/imgui/misc/freetype/imgui_freetype.h
+	"imgui.h"
+
+1746964811 /home/vengie/Documents/programming/1/imgui/imgui.h
+	"imconfig.h"
+	<float.h>
+	<stdarg.h>
+	<stddef.h>
+	<string.h>
+	<assert.h>
+	"imgui_user.h"
+
+1746964811 /home/vengie/Documents/programming/1/imgui/imconfig.h
+
+1746964811 /home/vengie/Documents/programming/1/imstb_rectpack.h
+	<stdlib.h>
+	<assert.h>
+
+1746964811 /home/vengie/Documents/programming/1/imstb_truetype.h
+	"stb_truetype.h"
+	<stdio.h>
+	"stb_truetype.h"
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<string.h>
+
+1746964811 source:/home/vengie/Documents/programming/1/imgui_tables.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<stdint.h>
+
+1746964811 source:/home/vengie/Documents/programming/1/imgui_widgets.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<stdint.h>
+	"imstb_textedit.h"
+	"imstb_textedit.h"
+
+1746964811 /home/vengie/Documents/programming/1/imstb_textedit.h
+	<string.h>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics/Color.hpp
+	<cstdint>
+	<SFML/Graphics/Color.inl>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics/Color.inl
+	<SFML/Graphics/Color.hpp>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/System/Vector2.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Angle.hpp>
+	<SFML/System/Vector2.inl>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/System/Export.hpp
+	<SFML/Config.hpp>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Config.hpp
+	"TargetConditionals.h"
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/System/Angle.hpp
+	<SFML/System/Angle.inl>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/System/Angle.inl
+	<SFML/System/Angle.hpp>
+	<cassert>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/System/Vector2.inl
+	<SFML/System/Vector2.hpp>
+	<cassert>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics.hpp
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/ConvexShape.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/StencilMode.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/Graphics/VertexBuffer.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Window.hpp>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics/BlendMode.hpp
+	<SFML/Graphics/Export.hpp>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics/Export.hpp
+	<SFML/Config.hpp>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics/CircleShape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/System/Vector2.hpp>
+	<cstddef>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics/Shape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/Vector2.hpp>
+	<cstddef>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics/Drawable.hpp
+	<SFML/Graphics/Export.hpp>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics/PrimitiveType.hpp
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics/Rect.hpp
+	<SFML/System/Vector2.hpp>
+	<optional>
+	<SFML/Graphics/Rect.inl>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics/Rect.inl
+	<SFML/Graphics/Rect.hpp>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics/RenderStates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/CoordinateType.hpp>
+	<SFML/Graphics/StencilMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics/CoordinateType.hpp
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics/StencilMode.hpp
+	<SFML/Graphics/Export.hpp>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics/Transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+	<array>
+	<SFML/Graphics/Transform.inl>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics/Transform.inl
+	<SFML/Graphics/Transform.hpp>
+	<array>
+	<cstddef>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics/Transformable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Angle.hpp>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics/VertexArray.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<vector>
+	<cstddef>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics/Vertex.hpp
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics/ConvexShape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<vector>
+	<cstddef>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics/Font.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/System/Vector2.hpp>
+	<filesystem>
+	<memory>
+	<string>
+	<unordered_map>
+	<vector>
+	<cstddef>
+	<cstdint>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics/Glyph.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics/Texture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/CoordinateType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/Vector2.hpp>
+	<filesystem>
+	<cstddef>
+	<cstdint>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Window/GlResource.hpp
+	<SFML/Window/Export.hpp>
+	<memory>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Window/Export.hpp
+	<SFML/Config.hpp>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics/Image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+	<filesystem>
+	<optional>
+	<string_view>
+	<vector>
+	<cstddef>
+	<cstdint>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics/RectangleShape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/System/Vector2.hpp>
+	<cstddef>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics/RenderTarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/CoordinateType.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/StencilMode.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/System/Vector2.hpp>
+	<array>
+	<cstddef>
+	<cstdint>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics/View.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Angle.hpp>
+	<SFML/System/Vector2.hpp>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics/RenderTexture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/System/Vector2.hpp>
+	<memory>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Window/ContextSettings.hpp
+	<SFML/Config.hpp>
+	<cstdint>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics/RenderWindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowEnums.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/System/Vector2.hpp>
+	<cstdint>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Window/VideoMode.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+	<vector>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Window/Window.hpp
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/WindowBase.hpp>
+	<SFML/Window/WindowEnums.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Time.hpp>
+	<memory>
+	<cstdint>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Window/WindowBase.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/Vulkan.hpp>
+	<SFML/Window/WindowEnums.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Vector2.hpp>
+	<memory>
+	<optional>
+	<cstdint>
+	<SFML/Window/WindowBase.inl>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Window/Vulkan.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+	<cstdint>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Window/WindowEnums.hpp
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Window/WindowHandle.hpp
+	<SFML/Config.hpp>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/System/Time.hpp
+	<chrono>
+	<cstdint>
+	<SFML/System/Time.inl>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/System/Time.inl
+	<SFML/System/Time.hpp>
+	<ratio>
+	<cassert>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Window/WindowBase.inl
+	<SFML/Window/Event.hpp>
+	<SFML/Window/WindowBase.hpp>
+	<utility>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Window/Event.hpp
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+	<SFML/System/Vector2.hpp>
+	<variant>
+	<SFML/Window/Event.inl>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Window/Joystick.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/System/String.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Utf.hpp>
+	<locale>
+	<string>
+	<cstddef>
+	<cstdint>
+	<SFML/System/String.inl>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/System/Utf.hpp
+	<SFML/Config.hpp>
+	<array>
+	<locale>
+	<cstdint>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/System/Utf.inl
+	<SFML/System/Utf.hpp>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/System/String.inl
+	<SFML/System/String.hpp>
+	<iterator>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Window/Keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Window/Mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Window/Sensor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector3.hpp>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/System/Vector3.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Vector3.inl>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/System/Vector3.inl
+	<SFML/System/Vector3.hpp>
+	<cassert>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Window/Event.inl
+	<SFML/Window/Event.hpp>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/System/Clock.hpp
+	<SFML/System/Export.hpp>
+	<chrono>
+	<ratio>
+	<type_traits>
+	<SFML/System/SuspendAwareClock.hpp>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/System/SuspendAwareClock.hpp
+	<SFML/System/Export.hpp>
+	<chrono>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics/Shader.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glsl.hpp>
+	<SFML/Window/GlResource.hpp>
+	<filesystem>
+	<string>
+	<string_view>
+	<unordered_map>
+	<cstddef>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics/Glsl.hpp
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<cstddef>
+	<SFML/Graphics/Glsl.inl>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics/Glsl.inl
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Glsl.hpp>
+	<array>
+	<cstddef>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics/Sprite.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<array>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics/Text.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Vector2.hpp>
+	<cstddef>
+	<cstdint>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Graphics/VertexBuffer.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Window/GlResource.hpp>
+	<cstddef>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Window.hpp
+	<SFML/Window/Clipboard.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Cursor.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+	<SFML/Window/Touch.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowEnums.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/System.hpp>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Window/Clipboard.hpp
+	<SFML/Window/Export.hpp>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Window/Context.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/Vector2.hpp>
+	<memory>
+	<string_view>
+	<cstdint>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Window/Cursor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+	<memory>
+	<optional>
+	<cstdint>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/Window/Touch.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/System.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Angle.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/Exception.hpp>
+	<SFML/System/FileInputStream.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/MemoryInputStream.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/System/Err.hpp
+	<SFML/System/Export.hpp>
+	<iosfwd>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/System/Exception.hpp
+	<SFML/System/Export.hpp>
+	<stdexcept>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/System/FileInputStream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+	<SFML/System/InputStream.hpp>
+	<filesystem>
+	<memory>
+	<cstdint>
+	<cstdio>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/System/InputStream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+	<optional>
+	<cstdint>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/System/MemoryInputStream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+	<SFML/System/InputStream.hpp>
+	<cstddef>
+	<cstdint>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/System/Sleep.hpp
+	<SFML/System/Export.hpp>
+
+1746966423 source:/home/vengie/Documents/programming/1/imgui-SFML.cpp
+	"imgui-SFML.h"
+	<imgui.h>
+	<SFML/Config.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/Window/Clipboard.hpp>
+	<SFML/Window/Cursor.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Touch.hpp>
+	<SFML/Window/Window.hpp>
+	<cassert>
+	<cmath>
+	<cstring>
+	<algorithm>
+	<memory>
+	<vector>
+	<SFML/System/NativeActivity.hpp>
+	<android/native_activity.h>
+	<jni.h>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/OpenGL.hpp
+	<SFML/Config.hpp>
+	<windows.h>
+	<GL/gl.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GL/gl.h>
+	<OpenGL/gl.h>
+	<OpenGLES/ES1/gl.h>
+	<OpenGLES/ES1/glext.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2ext.h>
+	<GLES2/gl2platform.h>
+
+1735558136 /home/vengie/Downloads/SFML-3.0.0/include/SFML/System/NativeActivity.hpp
+	<SFML/System/Export.hpp>
+
+1746964811 source:/home/vengie/Documents/programming/1/imgui_demo.cpp
+	"imgui.h"
+	<ctype.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<inttypes.h>
+	<emscripten/version.h>
 
