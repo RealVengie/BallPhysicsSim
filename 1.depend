@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1746958264 source:/home/vengie/Documents/programming/1/main.cpp
+	<SFML/Graphics.hpp>
+	<cmath>
+	<iostream>
+	<array>
+	<cmath>
+
